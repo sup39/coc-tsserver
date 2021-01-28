@@ -149,7 +149,7 @@ export class DiagnosticsManager {
           // Still show unused
           return x.code == 6133
         }
-        return enabled
+        return x.code !== 80001 // disable annoying CommonJS module warning
       })
   }
 

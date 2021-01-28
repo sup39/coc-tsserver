@@ -1,3 +1,6 @@
+## Local Change
+Disable annoying warning `[tsserver 80001] [I] File is a CommonJS module; it may be converted to an ES6 module.` permanently.
+
 # coc-tsserver
 
 Tsserver language server extension for
